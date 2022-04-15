@@ -1,0 +1,18 @@
+
+
+5조 : 황정아 / 채여운
+
+
+주제 : 사이트 구조 클론코딩
+대상 : 인덱스 페이지 + 인원수별 1페이지 = 총 3페이지 
+
+사이트 : https://careers.kakao.com/index
+
+개별 페이지 
+- 채여운 : 카카오 생활
+- 황정아 : 크루이야기 
+
+
+폰트링크 : https://fonts.google.com/noto/specimen/Noto+Sans+KR?query=Noto+Sans
+카카오체 폰트 적용 안되면 font-family: Noto Sans; >> 이거 쓰면됨
+/* 원본폰트 : font-family: 'Kakao','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif; */
