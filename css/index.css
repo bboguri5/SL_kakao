@@ -1,0 +1,612 @@
+@import url(common.css);
+
+/* header */
+header {
+  text-align: center;
+  padding: 0 5px;
+}
+
+header .inner_header {
+  background: #fff;
+  padding: 19px 0;
+  margin: 0 auto;
+  width: 1296px;
+  height: 72px;
+
+  position: relative;
+  box-sizing: border-box;
+
+  font-weight: 700;
+}
+
+/* header - nav - tit */
+
+header .inner_header nav.tit_header {
+  padding-top: 5px;
+  float: left;
+}
+
+header .inner_header nav.tit_header a img {
+  width: 107;
+  height: 24px;
+}
+
+/* header - nav -  gnb */
+
+header .inner_header nav.nav_gnb {
+  width: 55%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #000;
+}
+
+header .inner_header nav.nav_gnb .list_gnb li {
+  padding: 5px 40px 0 5px;
+  float: left;
+}
+
+/* header - nav - login */
+
+header .inner_header .login {
+  padding: 7px 0;
+  float: right;
+
+  font-size: 14px;
+  letter-spacing: -0.2px;
+}
+
+header .inner_header .login span img {
+  width: 10px;
+  height: 10px;
+}
+
+/* container */
+
+container.kakao_content {
+  min-width: 1296px;
+  letter-spacing: -0.5px;
+}
+
+/* container - slick */
+
+container .slick_list {
+  position: relative;
+}
+
+container .slick_list a img {
+  display: block;
+  width: 100%;
+}
+
+container .slick_list .slick_dots {
+  position: absolute;
+  bottom: 35px;
+  right: 1400px;
+}
+
+container .slick_list .slick_dots li {
+  float: left;
+}
+
+container .slick_list .slick_dots li button {
+  width: 9px;
+  height: 9px;
+  padding: 2px;
+
+  color: transparent;
+  border-radius: 50%;
+
+  opacity: 50%;
+}
+
+container .slick_dots li button:first-child {
+  margin-left: 10px;
+}
+
+/* container - Content_main */
+
+.Content_main {
+  margin: 0 auto;
+  width: 1296px;
+}
+
+.Content_main .intro_main {
+  text-align: center;
+  padding: 36px 0 148px 0;
+  color: #000;
+}
+
+.Content_main .intro_main strong {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.Content_main .intro_main p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* container - Content_main - article */
+
+article .tit_info {
+  margin: 0 auto;
+}
+
+article .tit_info .tit_info_img {
+  margin: -8px 12px 0 0;
+  float: left;
+
+  width: 72px;
+  height: 72px;
+}
+
+article .tit_info .tit_info_img img {
+  width: 100%;
+}
+
+article .tit_info h3 {
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: -0.8px;
+  font-family: "kakaoBig_Bold";
+  color: #000;
+
+  float: left;
+}
+
+article .tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+article .tags a {
+  margin: 24px 12px 0 0;
+  padding: 14px 24px 16px;
+  border-radius: 31px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 33px;
+  background: #eee;
+  position: relative;
+}
+
+/* article - list_more */
+
+article .list_more {
+  margin-bottom: 108px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article .list_more li:first-child {
+  width: 100%;
+  padding: 60px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+article .list_more li {
+  width: 408px;
+  border-radius: 18px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+  font-family: "Kakao", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
+    "돋움", dotum, sans-serif;
+}
+
+article .list_more li:first-child strong {
+  text-align: center;
+  font-family: "kakaoBig_Bold";
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: -0.8px;
+  color: #000;
+
+  display: block;
+}
+
+article .list_more li:first-child .link {
+  padding: 10px 19px 12px 20px;
+  margin: 36px auto;
+  border-radius: 21px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  background: #000;
+  width: 12%;
+
+  display: inline-block;
+  position: relative;
+}
+
+article .list_more li:first-child .link a img {
+  display: inline-block;
+
+  width: 14px;
+  height: 14px;
+
+  position: relative;
+  top: 2.5px;
+  left: 1px;
+}
+
+article .list_more li:first-child img {
+  display: block;
+
+  margin: 0 auto;
+  width: 850px;
+}
+
+article .list_more li {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+article .list_more li > a .ballon_img {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+article .list_more li > a .ballon_img img {
+  height: 50px;
+  width: 100%;
+}
+
+article .list_more li > a strong {
+  display: block;
+  font-family: "kakao_Bold", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
+    "돋움", dotum, sans-serif;
+
+  min-height: 72px;
+  margin: 12px 0 24px;
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: -0.6px;
+}
+
+article .list_more li > a span {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  font-family: "kakao_Bold", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
+    "돋움", sans-serif;
+}
+article .list_more li > a span img {
+  display: inline;
+  width: 20px;
+  height: 20px;
+
+  position: relative;
+  top: 3.7px;
+  left: 5px;
+}
+
+/* article - card */
+article .card h3 {
+  font-family: "kakao_Bold", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
+    "돋움", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: -0.8px;
+  color: #000;
+}
+
+article .card .card_list {
+  display: flex;
+  margin-bottom: 72px;
+}
+
+article .card .card_list li {
+  margin: 36px 36px 0 0;
+}
+
+article .card .card_list a {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  height: 406px;
+  border-radius: 18px;
+  box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+  background: #fff;
+  position: relative;
+}
+
+article .card .card_list a img {
+  height: 224px;
+  border-radius: 18px 18px 0 0;
+}
+
+article .card .card_list strong {
+  font-family: "kakao_Bold", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
+    "돋움", sans-serif;
+  margin: 24px;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  line-height: 38px;
+}
+
+article .card .card_list span
+{
+    padding: 0 24px 36px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+article .more>a
+{
+    width: 165px;
+    display: block;
+    background: #000;
+
+
+    margin: 0 auto;
+    font-family: "kakao", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",   "돋움", sans-serif;
+
+    padding: 15px 40px 17px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.56;
+    letter-spacing: -0.5px;
+    text-align: center;
+    background: #eee;
+}
+
+article .more>a img
+{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+
+}
+
+/* aside*/
+aside.Etc
+{
+  display: block;
+  padding: 48px 96px;
+  border-radius: 18px;
+  box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.09);
+  width: 1296px;
+  margin: 96px auto ;
+  box-sizing: border-box;
+  position: relative;
+
+  background: #27348b;
+  color: #fff;
+}
+
+aside .txt_Etc strong
+{
+  font-size: 36px;
+  display: block;
+  margin: 4px 0 12px;
+}
+aside .txt_Etc span
+{
+  font-size: 16px;
+  margin-bottom: 13px;
+  position: relative;
+}
+aside .txt_Etc span img
+{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 135px;
+}
+aside.Etc img
+{
+  height: 89.95px;
+  position: absolute;
+  right: 96px;
+  top: 48px;
+}
+
+/* footer */
+
+footer.kakao_footer
+{
+  border-top: 1px solid #ebebeb;
+}
+
+footer.kakao_footer .inner_footer
+{
+  width: 1296px;
+  margin: 0 auto;
+  padding: 59px 0 36px;
+
+  color: #333333;
+}
+
+/* footer - sns list */
+footer .sns_list
+{
+  text-align: center;
+}
+footer .sns_list strong
+{
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.8px;
+  text-align: center;
+}
+
+footer .sns_list ul
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .sns_list li
+{
+  display: inline;
+  float: left;
+  padding: 24px 0 48px;
+  margin: 0 12px;
+  position: relative;
+}
+footer .sns_list li>img
+{
+  width: 60px;
+  height: 60px;
+}
+
+
+/* footer - area info */
+footer .area_info
+{
+  padding-top: 12px;
+  color: #888888
+}
+
+footer .area_info .info_use
+{
+  float: left;
+}
+
+footer .area_info .info_use a:first-child
+{
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* footer - info use - select */
+footer .area_info #select_wrap
+{
+  appearance: none;
+  background: url('../images/etc/direction01.png') no-repeat 70% 50%;
+  background-size: 9px 9px;
+
+  width: 100px;
+  padding: 12px 24px 10px;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* footer - wrap select */
+footer .wrap_select #site_slelect
+{
+  float: right;
+
+  appearance: none;
+  background: url('../images/etc/plus01.png') no-repeat 90% 50%;
+  background-size: 12px 12px;
+  background-color: #eee;
+
+  width: 222px;
+  padding: 10px 24px 11px;
+  border: none;
+  border-radius: 24px;
+
+  font-size: 13px;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* hover : nav_gnb 나머지 옅게
+
+자바 스크립트라 못 함(패스)
+*/
+
+/* tags-hover : article - tags 노랗게 */
+article .tags a:hover
+{
+  background: #ffd400;
+}
+
+/*article-hover : 박스 색깔 짙게 */
+article .more>a:hover
+{
+  background: rgb(200, 200, 200);
+}
+
+/* footer-hover 짙게 */
+footer .sns_list .sns-kakao::after {
+  content: url('../images/sns/kakaotalk02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-kakao:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-insta::after {
+  content: url('../images/sns/insta02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-insta:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-youtube::after {
+  content: url('../images/sns/youtube02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-youtube:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-linkin::after {
+  content: url('../images/sns/linkin02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-linkin:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-facebook::after {
+  content: url('../images/sns/facebook02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-facebook:hover:after {
+  display: inline;
+}

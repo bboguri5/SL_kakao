@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'kakao';
+    src: url(../font/KakaoSmall.woff2) format("woff");
+}
+@font-face {
+    font-family: 'kakao_Bold';
+    src: url(../font/KakaoSmall_Bold.woff2) format("woff");
+}
+
+@font-face {
+    font-family: 'kakaoBig';
+    src: url(../font/KakaoBig.woff2) format("woff");
+}
+
+@font-face {
+    font-family: 'kakaoBig_Bold';
+    src: url(../font/KakaoBig_Bold.woff2) format("woff");
+}
+/* util */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* layout */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+    color: inherits;
+}
+
+body {
+
+    color: #333;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: 'kakaoBig','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',sans-serif; 
+}
+
+li{
+    list-style:none;
+    padding-left:0px;
+    }
+
+    /* hover : 박스 띄우기 */
+.box-up:hover
+{
+  transform: translatey(-5px);
+  transition-duration: 0.3s;
+  animation-timing-function: linear;
+  box-shadow: 5px 5px 35px #9b9b9b;
+  border-radius: 18px;
+}
