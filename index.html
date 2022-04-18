@@ -1,247 +1,187 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css">
+    <link rel="shortcut icon" href="https://t1.daumcdn.net/comis/common/images/favicon_64x64.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <title img=>카카오 영입</title>
+
+    <!-- nav 폰트 font-family: 'Kakao','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;  -->
 
 </head>
 
-<>
-    <div class="wrap">
-    <!-- header -->
-    <header>
-        <div id="inner-header">
-            <h1 class="title-logo">
+<body>
+    <div id="kakao_Wrap">
+        <header class="kakao_head clearfix">
+            <div class="inner_header ">
+                <nav class="tit_header">
+                    <a href="#">
+                        <img src="images/logo.png" alt="카카오 로고">
+                    </a>
+                </nav>
+                <nav class="nav_gnb">
+                    <ul class="list_gnb">
+                        <li><a href="#">카카오 생활</a> </li>
+                        <li><a href="#">크루 이야기</a></li>
+                        <li><a href="#">진행중공고</a></li>
+                        <li><a href="#">테크인터십</a></li>
+                        <li><a href="#">지원안내</a></li>
+                        <li><a href="#">나의지원서</a></li>
+                    </ul>
+                </nav>
+                <nav class="login">
+                    <a href="#" class="link_login">로그인 </a>
+                    <span><img src="images/etc/direction05.png" alt="방향05"></span>
+                </nav>
+            </div>
+        </header>
+        <container class="kakao_content">
+            <div class="slick_list">
                 <a href="#">
-                    <img src="images/logo.png" alt="카카오 영입 로고">
+                    <img src="images/content/slick01.png" alt="">
                 </a>
-            </h1>
-
-            <div class="gnb">
-                <ul class="list-gnb">
-                    <li><a href="#">카카오 생활</a></li>
-                    <li><a href="#">크루 이야기</a></li>
-                    <li><a href="#">진행중공고</a></li>
-                    <li><a href="#">테크 인턴십</a></li>
-                    <li><a href="#">지원안내</a></li>
-                    <li><a href="#">나의 지원서</a></li>
+                <ul class="slick_dots">
+                    <li><button type="button"></button></li>
+                    <li><button type="button"></button></li>
                 </ul>
             </div>
+            <div class="Content_main">
+                <div class="intro_main">
+                    <strong>Join the krew</strong>
+                    <p>카카오 크루는 우리의 일상을 더 좋게 만들고 싶은 멋진 동료입니다. <br>
+                        다양한 생각을 자유롭게 나누며, 언제나 놀라운 결과를 만들어내죠. <br>
+                        당신도 세상을 바꾸고 싶나요? 카카오로 오세요!!</p>
+                </div>
+                <article class="info_main">
+                    <div class="tit_info clearfix">
+                        <div class="tit_info_img">
+                            <img src="images/trumpet.png" alt="트럼펫">
+                        </div>
+                        <h3>관심있는 공고를 찾아보세요</h3>
+                    </div>
+                    <div class="tags">
+                        <a href="#"># 테크</a>
+                        <a href="#"># 서비스비즈</a>
+                        <a href="#"># 디자인</a>
+                        <a href="#"># 브랜드</a>
+                        <a href="#"># 스태프</a>
+                    </div>
+                    <ul class="list_more ">
+                        <li>
+                            <strong> 기술과 사람으로 더 나은 세상을 만듭니다.</strong>
 
-            <a href="#" class="login-link">로그인
-                <img src="images/etc/direction05.png" alt="#">
-            </a>
-        </div>
-        <!-- //.inner-header -->
-    </header>
-    <!-- //header -->
+                            <div class="link">
+                                <a href="#"> 카카오 문화 바로가기
+                                    <img src="images/arrow/arrow04.png" alt="">
+                                </a>
+                            </div>
+                            <img src="https://t1.kakaocdn.net/career_public/images/img_culture.png" alt="카카오 문화">
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="ballon_img"><img src="images/ballon.png" alt="말풍선"></div>
+                                <strong>100% 리얼 스토리<br>카카오 크루 이야기</strong>
+                                <span>크루 이야기 살펴보기<img src="images/etc/direction06.png" alt="방향06"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="ballon_img"><img src="images/clap.png" alt="말풍선"></div>
 
-    <!-- content -->
-    <div id="content-wrap">
-        <!-- .slick -->
-        <div class="slick">
-            <a href="#">
-                <img src="images/content/slick01.png" alt="">
-            </a>
-        </div>
-        <!-- .main-content -->
-        <div class="main-content">
-            <!-- Join the krew -->
-            <div class="main-message">
-                <h2>Join the krew</h2>
-                <p>
-                    카카오 크루는 우리의 일상을 더 좋게 만들고 싶은 멋진 동료입니다. <br>
-                    다양한 생각을 자유롭게 나누며, 언제나 놀라운 결과를 만들어내죠. <br>
-                    당신도 세상을 바꾸고 싶나요? 카카오로 오세요!!
-                </p>
+                                <strong>휴가부터 의료지원까지<br>크루 복지와 혜택</strong>
+                                <span>크루 혜택 알아보기<img src="images/etc/direction06.png" alt="방향06"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="ballon_img"><img src="images/person.png" alt="말풍선"></div>
+                                <strong>카카오 합류를 위한<br>영입절차</strong>
+                                <span>영입절차 확인하기<img src="images/etc/direction06.png" alt="방향06"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="card">
+                        <h3>더 많은 크루 소식이 있어요</h3>
+                        <ul class="card_list">
+                            <li>
+                                <a href="#">
+                                    <img src="images/content/internship_review01.png" alt="리뷰01">
+                                    <strong class="tit_card">2021 테크 인턴 크루들의 성장기</strong>
+                                    <span class="tag_card">#테크블로그</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/content/internship_review02.png" alt="리뷰02">
+                                    <strong class="tit_card">인턴리더와 인턴크루들이 들려주는 테크 인턴십 스토리</strong>
+                                    <span class="tag_card">#테크블로그</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/content/internship_review03.png" alt="리뷰03">
+                                    <strong class="tit_card">BX 시선으로 일하게 된 썸머 이야기</strong>
+                                    <span class="tag_card">#티스토리</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">크루 콘텐츠 더보기
+                                <img src="images/etc/plus02.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </article>
             </div>
+            <aside class="Etc">
+                <a href="#">
+                    <div class="txt_Etc">
+                        <strong>오늘의 카카오가 궁금하다면?</strong>
+                        <span>기업사이트 바로가기 <img src="images/arrow/arrow.png" alt="화살표"></span>
+                    </div>
+                    <img src="images/aside.png" alt="">
+                </a>
+            </aside>
+        </container>
+        <hr>
+        <footer class="kakao_footer">
+            <div class="inner_footer">
+                <div class="sns_list">
+                    <strong>카카오의 다양한 소식을 확인하세요</strong>
+                    <li><img src="images/sns/kakaotalk01.png" alt="카카오톡01"></li>
+                    <li><img src="images/sns/insta01.png" alt="인스타01"></li>
+                    <li><img src="images/sns/youtube01.png" alt="유튜브01"></li>
+                    <li><img src="images/sns/linkin01.png" alt="링킨01"></li>
+                    <li><img src="images/sns/facebook01.png" alt="페북01"></li>
+                </div>
 
-            <!-- article -->
-            <article>
-                <!-- .job-info 관심있는 공고를 찾아보세요 -->
-                <div class="job-info">
-                    <img src="images/trumpet.png" alt="트럼펫">
-                    <h2>관심있는 공고를 찾아보세요</h2>
-                    <ul>
-                        <li><a href="#">&#35;테크</a></li>
-                        <li><a href="#">&#35;서비스비즈</a></li>
-                        <li><a href="#">&#35;디자인</a></li>
-                        <li><a href="#">&#35;브랜드</a></li>
-                        <li><a href="#">&#35;스태프</a></li>
-                    </ul>
-                </div>
-                <!-- about-krew 기술과 사람으로 더 나은 세상을 만듭니다 -->
-                <div class="about-krew">
-                    <ul>
-                        <li>
-                            <h2>기술과 사람으로 더 나은 세상을 만듭니다</h2>
-                            <a href="#">카카오 문화 바로가기
-                                <img src="images/arrow/arrow02.png" alt="">
-                            </a>
-                            <img src="images/content/img_culture.png" alt="">
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/ballon.png" alt="말풍선">
-                                <h3>100% 리얼 스토리<br>카카오 크루 이야기</h3>
-                                <p>크루 이야기 살펴보기</p>
-                                <img src="images/etc/direction06.png" alt="방향 꺽쇠">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/clap.png" alt="박수">
-                                <h3>휴가부터 의료지원까지<br>크루 복지와 혜택</h3>
-                                <p>크루 혜택 알아보기</p>
-                                <img src="images/etc/direction06.png" alt="방향 꺽쇠">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/person.png" alt="">
-                                <h3>카카오 합류를 위한<br>영입절차</h3>
-                                <p>영입절차 확인하기</p>
-                                <img src="images/etc/direction06.png" alt="방향 꺽쇠">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- krew news 더 많은 크루 소식이 있어요 -->
-                <div class="krew-news">
-                    <h2>더 많은 크루 소식이 있어요</h2>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="images/content/internship_review01.png" alt="인턴 리뷰 이미지1">
-                                <h3>2021 테크 인턴 크루들의 성장기</h3>
-                                <span>&#35;테크블로그</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/content/internship_review02.png" alt="인턴 리뷰 이미지2">
-                                <h3>인턴리더와 인턴크루들이 들려주는<br>
-                                    테크 인턴십 스토리</h3>
-                                <span>&#35;테크블로그</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/content/internship_review03.png" alt="인턴 리뷰 이미지3">
-                                <h3>BX의 시선으로 일하게 된 썸머 이야기</h3>
-                                <span>&#35;티스토리</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div>
-                        <a href="#">크루 콘텐츠 더보기
-                            <img src="images/etc/plus02.png" alt="더하기 아이콘">
-                        </a>
+                <div class="area_info">
+                    <div class="info_use">
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">이용약관</a>
+                        <select id="select_wrap">
+                            <option value="">한국어</option>
+                            <option value="">English</option>
+                        </select>
+                    </div>
+                    <div class="wrap_select">
+                        <select id="site_slelect">
+                            <option value="none" hidden>관련사이트</option>
+                            <option value="">카카오 서비스</option>
+                            <option value="">다음</option>
+                            <option value="">카카오</option>
+                        </select>
                     </div>
                 </div>
-            </article>
-            <!-- //article -->
-
-            <!-- kakao link -->
-            <div class="kakao-link">
-                <a href="#">
-                    <h2>오늘의 카카오가 궁금하다면?</h2>
-                    <span>기업사이트 바로가기</span>
-                    <img src="images/arrow/arrow.png" alt="화살표 아이콘">
-                    <img src="images/aside.png" alt="카카오 링크">
-                </a>
             </div>
-        </div>
-        <!-- //.main-content -->
+        </footer>
     </div>
-    <!-- //content -->
 
-    <!-- footer -->
-    <footer>
-        <div class="inner-footer">
-            <!-- footer sns -->
-            <div class="sns">
-                <h2>카카오의 다양한 소식을 확인하세요</h2>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="images/sns/kakaotalk01.png" alt="카카오톡 채널">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/sns/insta01.png" alt="카카오 인스타그램">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/sns/youtube01.png" alt="카카오 유튜브">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/sns/linkin01.png" alt="카카오 링크드인">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/sns/facebook01.png" alt="카카오 페이스북"></a></li>
-                </ul>
-            </div>
-            <!-- //sns -->
-            <!-- info-area -->
-            <div class="info-area">
-                <!-- info use -->
-                <div class="info-use">
-                    <a href="#">개인정보처리방침</a>
-                    <a href="#">이용약관</a>
-                    <button class="language-button">
-                        <span>한국어</span>
-                        <img src="images/etc/direction02.png" alt="방향 아이콘">
-                    </button>
-                    <ul class="language-select">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">한국어</a></li>
-                    </ul>
-                    <small>© Kakao Corp. All rights reserved.</small>
-                </div>
-                <!-- info relation -->
-                <button class="relation-site-button">
-                    <span>관련사이트</span>
-                    <img src="images/etc/plus02.png" alt="더하기 아이콘">
-                </button>
-                <ul class="relation-site-select">
-                    <li>
-                        <a href="#">
-                            <span>카카오</span>
-                            <img src="images/arrow/arrow06.png" alt="옅은 화살표 아이콘">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>다음 포털사이트</span>
-                            <img src="images/arrow/arrow06.png" alt="옅은 화살표 아이콘">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>카카오 서비스</span>
-                            <img src="images/arrow/arrow07.png" alt="짙은 화살표 아이콘">
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- //info-area -->
-        </div>
-        <!-- //inner-footer -->
-    </footer>
-    <!-- //footer -->
-</div>
-<!-- // warp-->
 </body>
 
 </html>
