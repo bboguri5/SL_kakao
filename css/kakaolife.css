@@ -2,8 +2,6 @@
 
 
 body .kakaoWrap {
-    background: pink;
-
     width: 1296px;
     margin: 108px auto 0;
 }
@@ -11,8 +9,6 @@ body .kakaoWrap {
 /* h1 카카오 생활 */
 
 .content-wrap h1 {
-    background: yellowgreen;
-
     position: relative;
 }
 
@@ -34,3 +30,129 @@ body .kakaoWrap {
 }
 
 /* h2 카카오 문화 */
+.content-wrap h2 
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.8px;
+    color: #000;
+
+    padding: 108px 0 36px;
+}
+/* slick-slde */
+#slick-wrap 
+{
+    display: flex;
+    overflow: hidden;
+    width: 1159px;
+    margin: 0 18px;
+
+    border-radius: 18px;
+    box-shadow: 4px 12px 40px 6px rgba(0 0 0 / 9%);
+}
+
+#slick-wrap .slick-text-wrap 
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 579px;
+    padding: 84px 84px 72px;
+    box-sizing: border-box;
+    border-radius: 18px 0 0 18px;
+}
+
+#slick-wrap .slick-title p
+{
+    display: block;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #999;
+    letter-spacing: -0.2px;
+}
+#slick-wrap .slick-title strong
+{
+    display: block;
+    margin-top: 14px;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+
+}
+
+#slick-wrap .slick-commentary
+{
+}
+#slick-wrap .slick-commentary p
+{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    padding-bottom: 36px;
+    margin-top: 108px;
+    
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #333;
+}
+
+#slick-wrap .slick-tag span
+{
+    display: inline-flex;
+    margin-right: 8px;
+
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    color: #999;
+}
+
+#slick-wrap .slick-img 
+{
+    width: 580px;
+    height: 680px;
+}
+
+#slick-number
+{
+    display: block;
+    width: 171px;
+    text-align: center;
+    margin: 37px auto 80px;
+}
+
+#slick-number span
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    
+    color: #000;
+}
+
+#slick-number img
+{
+    width: 26px;
+    height: 26px;
+}
+
+#slick-number .slick-arrow-turn
+{
+    float: left;
+    transform: rotate(180deg);
+}
+
+#slick-number .slick-arrow
+{
+    float: right;
+}
+
+/* h2 크루 혜택 */
+
