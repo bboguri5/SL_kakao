@@ -1,4 +1,36 @@
 @import url(common.css);
 
 
-/* header*/
+body .kakaoWrap {
+    background: pink;
+
+    width: 1296px;
+    margin: 108px auto 0;
+}
+
+/* h1 카카오 생활 */
+
+.content-wrap h1 {
+    background: yellowgreen;
+
+    position: relative;
+}
+
+.content-wrap h1 img
+{
+    width: 66px;
+    height: 66px;
+    margin-right:24px;
+
+    position: relative;
+    top: 15px;
+}
+.content-wrap h1 span
+{
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+/* h2 카카오 문화 */
