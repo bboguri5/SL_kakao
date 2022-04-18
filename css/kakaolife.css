@@ -154,5 +154,61 @@ body .kakaoWrap {
     float: right;
 }
 
-/* h2 크루 혜택 */
+/* h2 크루 혜택 리스트 */
 
+.benefit-wrap .benefit-list
+{
+    display: flex;
+    margin: 12px 0 48px;
+
+    color: #000;
+}
+
+.benefit-wrap .benefit-list li>a
+{
+    display: block;
+    padding: 9px 20px 11px;
+    margin-right: 10px;
+
+    border-radius: 30px;
+    background: #eee;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #333;
+}
+
+.benefit-wrap .benefit-list li>a:hover
+{
+    color: #eee;
+    background: #555;
+}
+
+/* h2 크루 혜택 디테일 */
+
+.benefit-detail-wrap
+{
+    background: greenyellow;
+}
+
+.benefit-detail-wrap .benefit-detail
+{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    width: 50%;
+    height: 242px;
+    padding-top: 48px;
+    border-top: 1px solid #000;
+    margin-top: 72px;
+
+    background: pink;
+
+    float: left;
+}
