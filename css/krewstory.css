@@ -5,6 +5,8 @@
 article {
     font-family: "kakao", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
         "돋움", sans-serif;
+
+    padding-bottom: 180px;
 }
 
 article.info_story {
@@ -264,4 +266,18 @@ article.info_story .detail .detail_work p:last-child {
     position: absolute;
 
     bottom: 50px;
+}
+
+article.info_story .detail .more {
+    min-width: 236px;
+    padding: 15px 40px 17px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    background: #eee;
+    box-sizing: border-box;
+
+    margin: 90px auto;
 }
