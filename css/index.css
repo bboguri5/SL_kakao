@@ -43,6 +43,7 @@ header .inner_header nav.nav_gnb {
 
   font-size: 16px;
   letter-spacing: -0.5px;
+  color: #000;
 }
 
 header .inner_header nav.nav_gnb .list_gnb li {
@@ -135,13 +136,8 @@ container .slick_dots li button:first-child {
 
 /* container - Content_main - article */
 
-/* article {
-  background: yellow;
-} */
-
 article .tit_info {
   margin: 0 auto;
-  /* background: tomato; */
 }
 
 article .tit_info .tit_info_img {
@@ -167,8 +163,6 @@ article .tit_info h3 {
 }
 
 article .tags {
-  /* background: skyblue; */
-
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 60px;
@@ -183,6 +177,7 @@ article .tags a {
   letter-spacing: -0.6px;
   line-height: 33px;
   background: #eee;
+  position: relative;
 }
 
 /* article - list_more */
@@ -306,6 +301,7 @@ article .list_more li > a span img {
   left: 5px;
 }
 
+/* article - card */
 article .card h3 {
   font-family: "kakao_Bold", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo",
     "돋움", sans-serif;
@@ -321,7 +317,7 @@ article .card .card_list {
 }
 
 article .card .card_list li {
-height: 442px;
+  margin: 36px 36px 0 0;
 }
 
 article .card .card_list a {
@@ -329,7 +325,6 @@ article .card .card_list a {
   flex-direction: column;
   width: 408px;
   height: 406px;
-  margin: 36px 36px 0 0;
   border-radius: 18px;
   box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
   background: #fff;
@@ -363,7 +358,7 @@ article .card .card_list span
 
 article .more>a
 {
-    width: 233px;
+    width: 165px;
     display: block;
     background: #000;
 
@@ -390,7 +385,7 @@ article .more>a img
 
 }
 
-
+/* aside*/
 aside.Etc
 {
   display: block;
@@ -434,5 +429,184 @@ aside.Etc img
   position: absolute;
   right: 96px;
   top: 48px;
+}
 
+/* footer */
+
+footer.kakao_footer
+{
+  border-top: 1px solid #ebebeb;
+}
+
+footer.kakao_footer .inner_footer
+{
+  width: 1296px;
+  margin: 0 auto;
+  padding: 59px 0 36px;
+
+  color: #333333;
+}
+
+/* footer - sns list */
+footer .sns_list
+{
+  text-align: center;
+}
+footer .sns_list strong
+{
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.8px;
+  text-align: center;
+}
+
+footer .sns_list ul
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .sns_list li
+{
+  display: inline;
+  float: left;
+  padding: 24px 0 48px;
+  margin: 0 12px;
+  position: relative;
+}
+footer .sns_list li>img
+{
+  width: 60px;
+  height: 60px;
+}
+
+
+/* footer - area info */
+footer .area_info
+{
+  padding-top: 12px;
+  color: #888888
+}
+
+footer .area_info .info_use
+{
+  float: left;
+}
+
+footer .area_info .info_use a:first-child
+{
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* footer - info use - select */
+footer .area_info #select_wrap
+{
+  appearance: none;
+  background: url('../images/etc/direction01.png') no-repeat 70% 50%;
+  background-size: 9px 9px;
+
+  width: 100px;
+  padding: 12px 24px 10px;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* footer - wrap select */
+footer .wrap_select #site_slelect
+{
+  float: right;
+
+  appearance: none;
+  background: url('../images/etc/plus01.png') no-repeat 90% 50%;
+  background-size: 12px 12px;
+  background-color: #eee;
+
+  width: 222px;
+  padding: 10px 24px 11px;
+  border: none;
+  border-radius: 24px;
+
+  font-size: 13px;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* hover : nav_gnb 나머지 옅게
+
+자바 스크립트라 못 함(패스)
+*/
+
+/* tags-hover : article - tags 노랗게 */
+article .tags a:hover
+{
+  background: #ffd400;
+}
+
+/*article-hover : 박스 색깔 짙게 */
+article .more>a:hover
+{
+  background: rgb(200, 200, 200);
+}
+
+/* footer-hover 짙게 */
+footer .sns_list .sns-kakao::after {
+  content: url('../images/sns/kakaotalk02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-kakao:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-insta::after {
+  content: url('../images/sns/insta02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-insta:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-youtube::after {
+  content: url('../images/sns/youtube02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-youtube:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-linkin::after {
+  content: url('../images/sns/linkin02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-linkin:hover:after {
+  display: inline;
+}
+
+footer .sns_list .sns-facebook::after {
+  content: url('../images/sns/facebook02.png') ;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+footer .sns_list .sns-facebook:hover:after {
+  display: inline;
 }

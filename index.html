@@ -70,8 +70,8 @@
                         <a href="#"># 브랜드</a>
                         <a href="#"># 스태프</a>
                     </div>
-                    <ul class="list_more ">
-                        <li>
+                    <ul class="list_more">
+                        <li class="box-up">
                             <strong> 기술과 사람으로 더 나은 세상을 만듭니다.</strong>
 
                             <div class="link">
@@ -81,14 +81,14 @@
                             </div>
                             <img src="https://t1.kakaocdn.net/career_public/images/img_culture.png" alt="카카오 문화">
                         </li>
-                        <li>
+                        <li class="box-up">
                             <a href="#">
                                 <div class="ballon_img"><img src="images/ballon.png" alt="말풍선"></div>
                                 <strong>100% 리얼 스토리<br>카카오 크루 이야기</strong>
                                 <span>크루 이야기 살펴보기<img src="images/etc/direction06.png" alt="방향06"></span>
                             </a>
                         </li>
-                        <li>
+                        <li class="box-up">
                             <a href="#">
                                 <div class="ballon_img"><img src="images/clap.png" alt="말풍선"></div>
 
@@ -96,7 +96,7 @@
                                 <span>크루 혜택 알아보기<img src="images/etc/direction06.png" alt="방향06"></span>
                             </a>
                         </li>
-                        <li>
+                        <li class="box-up">
                             <a href="#">
                                 <div class="ballon_img"><img src="images/person.png" alt="말풍선"></div>
                                 <strong>카카오 합류를 위한<br>영입절차</strong>
@@ -107,21 +107,21 @@
                     <div class="card">
                         <h3>더 많은 크루 소식이 있어요</h3>
                         <ul class="card_list">
-                            <li>
+                            <li class="box-up">
                                 <a href="#">
                                     <img src="images/content/internship_review01.png" alt="리뷰01">
                                     <strong class="tit_card">2021 테크 인턴 크루들의 성장기</strong>
                                     <span class="tag_card">#테크블로그</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="box-up">
                                 <a href="#">
                                     <img src="images/content/internship_review02.png" alt="리뷰02">
                                     <strong class="tit_card">인턴리더와 인턴크루들이 들려주는 테크 인턴십 스토리</strong>
                                     <span class="tag_card">#테크블로그</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="box-up">
                                 <a href="#">
                                     <img src="images/content/internship_review03.png" alt="리뷰03">
                                     <strong class="tit_card">BX 시선으로 일하게 된 썸머 이야기</strong>
@@ -148,26 +148,30 @@
                 </a>
             </aside>
         </container>
-        <hr>
         <footer class="kakao_footer">
             <div class="inner_footer">
-                <div class="sns_list">
+                <div class="sns_list clearfix">
                     <strong>카카오의 다양한 소식을 확인하세요</strong>
-                    <li><img src="images/sns/kakaotalk01.png" alt="카카오톡01"></li>
-                    <li><img src="images/sns/insta01.png" alt="인스타01"></li>
-                    <li><img src="images/sns/youtube01.png" alt="유튜브01"></li>
-                    <li><img src="images/sns/linkin01.png" alt="링킨01"></li>
-                    <li><img src="images/sns/facebook01.png" alt="페북01"></li>
+                    <ul class="clearfix">
+                        <li class="sns-kakao"><img src="images/sns/kakaotalk01.png" alt="카카오톡01"></li>
+                        <li class="sns-insta"><img src="images/sns/insta01.png" alt="인스타01"></li>
+                        <li class="sns-youtube"><img src="images/sns/youtube01.png" alt="유튜브01"></li>
+                        <li class="sns-linkin"><img src="images/sns/linkin01.png" alt="링킨01"></li>
+                        <li class="sns-facebook"><img src="images/sns/facebook01.png" alt="페북01"></li>
+                    </ul>
                 </div>
 
-                <div class="area_info">
+                <div class="area_info clearfix">
                     <div class="info_use">
-                        <a href="#">개인정보처리방침</a>
+                        <a href="#">개인정보처리방침</span></a>
                         <a href="#">이용약관</a>
                         <select id="select_wrap">
                             <option value="">한국어</option>
                             <option value="">English</option>
                         </select>
+                        <div class="copyright">
+                            <p>© Kakao Corp. All rights reserved.</p>
+                        </div>
                     </div>
                     <div class="wrap_select">
                         <select id="site_slelect">
@@ -177,6 +181,7 @@
                             <option value="">카카오</option>
                         </select>
                     </div>
+                   
                 </div>
             </div>
         </footer>

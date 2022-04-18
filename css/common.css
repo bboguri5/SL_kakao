@@ -45,3 +45,18 @@ body {
     line-height: 1.5;
     font-family: 'kakaoBig','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',sans-serif; 
 }
+
+li{
+    list-style:none;
+    padding-left:0px;
+    }
+
+    /* hover : 박스 띄우기 */
+.box-up:hover
+{
+  transform: translatey(-5px);
+  transition-duration: 0.3s;
+  animation-timing-function: linear;
+  box-shadow: 5px 5px 35px #9b9b9b;
+  border-radius: 18px;
+}
