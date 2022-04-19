@@ -1,0 +1,299 @@
+@import url(common.css);
+
+
+body .kakaoWrap 
+{
+    width: 1296px;
+    margin: 108px auto 0;
+}
+
+/* h1 카카오 생활 */
+
+.content-wrap h1 
+{
+    position: relative;
+}
+
+.content-wrap h1 img
+{
+    width: 66px;
+    height: 66px;
+    margin-right:24px;
+
+    position: relative;
+    top: 15px;
+}
+.content-wrap h1 span
+{
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    color: #000;
+}
+
+/* h2 카카오 문화 */
+.content-wrap h2 
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.8px;
+    color: #000;
+
+    padding: 108px 0 36px;
+}
+/* slick-slde */
+#slick-wrap 
+{
+    display: flex;
+    overflow: hidden;
+    width: 1159px;
+    margin: 0 18px;
+
+    border-radius: 18px;
+    box-shadow: 4px 12px 40px 6px rgba(0 0 0 / 9%);
+}
+
+#slick-wrap .slick-text-wrap 
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 579px;
+    padding: 84px 84px 72px;
+    box-sizing: border-box;
+    border-radius: 18px 0 0 18px;
+}
+
+#slick-wrap .slick-title p
+{
+    display: block;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #999;
+    letter-spacing: -0.2px;
+}
+#slick-wrap .slick-title strong
+{
+    display: block;
+    margin-top: 14px;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+
+}
+
+#slick-wrap .slick-commentary p
+{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    padding-bottom: 36px;
+    margin-top: 108px;
+    
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #333;
+}
+
+#slick-wrap .slick-tag span
+{
+    display: inline-flex;
+    margin-right: 8px;
+
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    color: #999;
+}
+
+#slick-wrap .slick-img 
+{
+    width: 580px;
+    height: 680px;
+}
+
+#slick-number
+{
+    display: block;
+    width: 171px;
+    text-align: center;
+    margin: 37px auto 80px;
+}
+
+#slick-number span
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    
+    color: #000;
+}
+
+#slick-number img
+{
+    width: 26px;
+    height: 26px;
+}
+
+#slick-number .slick-arrow-turn
+{
+    float: left;
+    transform: rotate(180deg);
+}
+
+#slick-number .slick-arrow
+{
+    float: right;
+    cursor: pointer;
+}
+
+/* h2 크루 혜택 리스트 */
+
+.benefit-wrap .benefit-list
+{
+    display: flex;
+    margin: 12px 0 48px;
+
+    color: #000;
+}
+
+.benefit-wrap .benefit-list .list-choice
+{
+    background: #333;
+    color: #eee;
+}
+
+
+.benefit-wrap .benefit-list li>a
+{
+    display: block;
+    padding: 9px 20px 11px;
+    margin-right: 10px;
+
+    border-radius: 30px;
+    background: #eee;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #333;
+}
+
+.benefit-wrap .benefit-list li>a:hover
+{
+    color: #eee;
+    background: #555;
+}
+
+/* h2 크루 혜택 디테일 */
+
+.benefit-detail-wrap .benefit-detail
+{
+    display: flexbox;
+
+    width: 594px;
+    height: 242px;
+    padding-top: 48px;
+    border-top: 1px solid #eee;
+    margin-top: 72px;
+
+    float: left;
+}
+.benefit-detail-wrap .benefit-detail:nth-child(even)
+{
+    margin-left: 108px;
+}
+.benefit-detail-wrap .benefit-detail:first-child
+{
+    margin-top: 0;
+    border: none;   
+}
+.benefit-detail-wrap .benefit-detail:nth-child(2)
+{
+    margin-top: 0;
+    border: none;   
+}
+
+.benefit-detail-wrap .benefit-detail .benefit-icon
+{
+    width: 46px;
+    height: 46px;
+    margin-bottom: 24px;
+}
+.benefit-detail-wrap .benefit-detail h3
+{
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+
+    color: #000;
+}
+.benefit-detail-wrap .benefit-detail p
+{
+    margin: 24px 39px 0 0;
+
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5;
+
+    color: #000;
+}
+/* h2  위치 */
+
+.office-wrap .card-list
+{
+    display: flex;
+    margin-bottom: 180px;
+}
+
+.office-wrap .card-list a
+{
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 18px;
+    box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+    background: #fff;
+
+    color: #333;
+    letter-spacing: -0.6px;
+}
+
+.office-wrap .card-list a h3
+{
+    display: block;
+    padding: 24px 24px 12px;
+    
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.office-wrap .card-list a p
+{
+    display: block;
+    padding: 0 24px 48px;
+
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.office-wrap .card-list .card-margin
+{
+    margin: 0 36px;
+}
+
