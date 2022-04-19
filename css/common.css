@@ -142,14 +142,18 @@ header {
 
 
   /* footer-hover 짙게 */
-footer .sns_list .sns-kakao::after {
+/* footer .sns_list .sns-kakao::after {
+
     content: url('../images/sns/kakaotalk02.png') ;
     position: absolute;
     top: 24px;
     left: 0;
     display: none;
+
+
   }
   footer .sns_list .sns-kakao:hover:after {
+    width: 100%;
     display: inline;
   }
   
@@ -159,6 +163,8 @@ footer .sns_list .sns-kakao::after {
     top: 24px;
     left: 0;
     display: none;
+
+    
   }
   footer .sns_list .sns-insta:hover:after {
     display: inline;
@@ -195,7 +201,7 @@ footer .sns_list .sns-kakao::after {
   }
   footer .sns_list .sns-facebook:hover:after {
     display: inline;
-  }
+  } */
 
   /* footer */
 
@@ -247,6 +253,9 @@ footer .sns_list li>img
 {
   width: 60px;
   height: 60px;
+}
+footer .sns_list li>img:hover {
+  opacity: 0.6;
 }
 
 
