@@ -281,3 +281,7 @@ article.info_story .detail .more {
 
     margin: 90px auto;
 }
+
+article.info_story .detail .more:hover{
+    background: #d2d2d2;
+}
