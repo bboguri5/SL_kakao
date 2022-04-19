@@ -1,14 +1,16 @@
 @import url(common.css);
 
 
-body .kakaoWrap {
+body .kakaoWrap 
+{
     width: 1296px;
     margin: 108px auto 0;
 }
 
 /* h1 카카오 생활 */
 
-.content-wrap h1 {
+.content-wrap h1 
+{
     position: relative;
 }
 
@@ -85,9 +87,6 @@ body .kakaoWrap {
 
 }
 
-#slick-wrap .slick-commentary
-{
-}
 #slick-wrap .slick-commentary p
 {
     display: flex;
@@ -152,6 +151,7 @@ body .kakaoWrap {
 #slick-number .slick-arrow
 {
     float: right;
+    cursor: pointer;
 }
 
 /* h2 크루 혜택 리스트 */
@@ -163,6 +163,13 @@ body .kakaoWrap {
 
     color: #000;
 }
+
+.benefit-wrap .benefit-list .list-choice
+{
+    background: #333;
+    color: #eee;
+}
+
 
 .benefit-wrap .benefit-list li>a
 {
@@ -188,27 +195,105 @@ body .kakaoWrap {
 
 /* h2 크루 혜택 디테일 */
 
-.benefit-detail-wrap
-{
-    background: greenyellow;
-}
-
 .benefit-detail-wrap .benefit-detail
 {
     display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
 
-    width: 50%;
+    width: 594px;
     height: 242px;
     padding-top: 48px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #eee;
     margin-top: 72px;
-
-    background: pink;
 
     float: left;
 }
+.benefit-detail-wrap .benefit-detail:nth-child(even)
+{
+    margin-left: 108px;
+}
+.benefit-detail-wrap .benefit-detail:first-child
+{
+    margin-top: 0;
+    border: none;   
+}
+.benefit-detail-wrap .benefit-detail:nth-child(2)
+{
+    margin-top: 0;
+    border: none;   
+}
+
+.benefit-detail-wrap .benefit-detail .benefit-icon
+{
+    width: 46px;
+    height: 46px;
+    margin-bottom: 24px;
+}
+.benefit-detail-wrap .benefit-detail h3
+{
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+
+    color: #000;
+}
+.benefit-detail-wrap .benefit-detail p
+{
+    margin: 24px 39px 0 0;
+
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5;
+
+    color: #000;
+}
+/* h2  위치 */
+
+.office-wrap .card-list
+{
+    display: flex;
+    margin-bottom: 180px;
+}
+
+.office-wrap .card-list a
+{
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 18px;
+    box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+    background: #fff;
+
+    color: #333;
+    letter-spacing: -0.6px;
+}
+
+.office-wrap .card-list a h3
+{
+    display: block;
+    padding: 24px 24px 12px;
+    
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.office-wrap .card-list a p
+{
+    display: block;
+    padding: 0 24px 48px;
+
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.office-wrap .card-list .card-margin
+{
+    margin: 0 36px;
+}
+

@@ -61,6 +61,11 @@ li{
   border-radius: 18px;
 }
 
+body .kakaoWrap 
+{
+    width: 1296px;
+    margin: 108px auto 0;
+}
 
 
 /* header */
@@ -79,7 +84,6 @@ header {
   header .inner_header {
     background: #fff;
     padding: 19px 0;
-    margin: 0 auto;
     width: 1296px;
     height: 72px;
   

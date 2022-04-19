@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css">
     <link rel="shortcut icon" href="https://t1.daumcdn.net/comis/common/images/favicon_64x64.ico">
     <link rel="stylesheet" href="../css/kakaolife.css">
-    <title img=>카카오 크루</title>
-
-    <!-- nav 폰트 font-family: 'Kakao','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;  -->
-
+    <script src="../js/includeHTML.js"></script>
+    <title>카카오 크루</title>
 </head>
 
 <body>
@@ -67,7 +65,7 @@
             <div class="benefit-wrap">
                 <!-- 혜택 메뉴 -->
                 <ul class="benefit-list">
-                    <li><a href="#">생활 속 지원</a></li>
+                    <li><a href="#" class="list-choice">생활 속 지원</a></li>
                     <li><a href="#">업무 몰입 지원</a></li>
                     <li><a href="#">휴식 지원</a></li>
                     <li><a href="#">건강 증진 지원</a></li>
@@ -152,22 +150,22 @@
             <!-- h2 오피스 위치 -->
             <h2>오피스 위치</h2>
             <div class="office-wrap">
-                <ul>
-                    <li>
+                <ul class="card-list">
+                    <li class="box-up">
                         <a href="#">
                             <img src="../images/kakaolife/img_office_jeju.jpg" alt="제주 본사">
                             <h3>카카오 본사</h3>
                             <p>제주특별자치도 제주시 첨단로 242</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="card-margin box-up">
                         <a href="#">
                             <img src="../images/kakaolife/img_office_pangyo.jpg" alt="판교 오피스">
                             <h3>판교 오피스</h3>
                             <p>경기도 성남시 분당구 판교역로 235 에이치스퀘어 N동 7층</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="box-up">
                         <a href="#">
                             <img src="../images/kakaolife/img_office_samseong.jpg" alt="삼성 오피스">
                             <h3>삼성 오피스</h3>
@@ -183,6 +181,9 @@
         <footer class="kakao_footer" include-html="footer.html">
         </footer>
     </div>
+    <script>
+        includeHTML();
+    </script>
 </body>
 
 </html>
